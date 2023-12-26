@@ -1,0 +1,6 @@
+web bán đồ ăn nhanh
+login/regiter
+home/menu
+thực đơn:tự đi tới danh sách muốn xem khi click vào danh sách thục đơn
+1 trang đặt hàng
+1 trang giỏ hàng
