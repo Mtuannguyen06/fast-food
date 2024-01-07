@@ -17,10 +17,11 @@
 
 #logo{
     height: 80px;
+
 }
 
 .bar-items {
-    font-size: 35px;
+    font-size: x-large;
     font-weight: bolder;
     text-decoration: none;
     color: #00B09A;
@@ -28,10 +29,5 @@
 
 .icon{
     color: #00B09A;
-    margin-left: 10px; 
-}
-
-.body{
-    background-color: #00B09A;
-    
+    margin-left: 10px;
 }
