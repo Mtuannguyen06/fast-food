@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAST FOOD</title>
-    <link rel="stylesheet" href="/styles/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/login.css">
 </head>
 
 <body>
@@ -37,8 +37,29 @@
         </div>
     </div>
     <div class="body">
-
+        <div class="container">
+            <div>
+                <form id="login-form">
+                    <h1 style="color: white;">Đăng nhập</h1>
+                    <div>
+                        <div class="inut">
+                            <input type="text" id="email" placeholder="Email" class="iput" required>
+                        </div>
+                        <div class="inut">
+                            <input type="password" id="password" placeholder="Mật khẩu" class="iput" required>
+                        </div>
+                    </div>
+                    <input type="submit" value="Đăng nhập" class="a-button">
+                </form>
+                <form id="register-page">
+                    <p style="text-align: center; color: white; margin-top: 15px;">Hoặc</p>
+                    <input type="button" value="Đăng kí" class="a-button">
+                </form>    
+            </div>
+        </div>
     </div>
+
+    <script src="javascript/login.js"></script>
 </body>
 
 </html>
