@@ -40,3 +40,12 @@
     width: 100%;
     height: 1000px;
 }
+
+#menu-section{
+    height: 40px;
+}
+
+.combo-section{
+    width: 1200px;
+    background-color: #202124;
+}
