@@ -78,9 +78,11 @@
     height: 40px;
     border-radius: 5px;
     color: black;
+    transition: 0.25s ease;
 }
 
 .a-button:hover{
     background-color: #00B09A;
     color: yellow;
+    transition: 0.25s ease;
 }
