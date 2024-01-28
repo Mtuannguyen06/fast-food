@@ -28,7 +28,6 @@
     color: white;
 }
 
-
 .icon{
     color: white;
     margin-left: 10px; 
@@ -69,7 +68,7 @@
 
 .title-container{
     color: yellow;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 .container{
@@ -193,4 +192,9 @@
 
 .social-img{
     background-color: black;
+}
+
+.menu-title{
+    color: yellow;
+    margin-left: 7px;
 }
