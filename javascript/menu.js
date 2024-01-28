@@ -127,7 +127,7 @@ function getProductListe() {
 }
 
 function renderProductListe() {
-  for (let index = 34; index < 48; index++) {
+  for (let index = 34; index < 44; index++) {
     const product = productList[index];
     const productItem = productTemp.content.cloneNode(true);
     productItem.getElementById("product-image").src = product.image;
@@ -155,7 +155,7 @@ function getProductListf() {
 }
 
 function renderProductListf() {
-  for (let index = 48; index < 67; index++) {
+  for (let index = 44; index < 55; index++) {
     const product = productList[index];
     const productItem = productTemp.content.cloneNode(true);
     productItem.getElementById("product-image").src = product.image;
@@ -183,7 +183,7 @@ function getProductListg() {
 }
 
 function renderProductListg() {
-  for (let index = 67; index < 82; index++) {
+  for (let index = 55; index < 65; index++) {
     const product = productList[index];
     const productItem = productTemp.content.cloneNode(true);
     productItem.getElementById("product-image").src = product.image;
